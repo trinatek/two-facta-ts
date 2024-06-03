@@ -1,0 +1,25 @@
+{
+  "name": "two-facta-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "two-factor",
+    "2fa",
+    "totp",
+    "automation",
+    "validation",
+    "auth"
+  ],
+  "author": "Napoleon Vang",
+  "license": "MIT",
+  "description": "Simple light script to generate a TOTP validation code.",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
